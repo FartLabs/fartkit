@@ -1,6 +1,10 @@
 # FartKit
 
-Everything you need to build a modern web application, powered by **FartKit**.
+[![JSR](https://jsr.io/badges/@fartlabs/fartkit)](https://jsr.io/@fartlabs/fartkit)
+[![JSR score](https://jsr.io/badges/@fartlabs/fartkit/score)](https://jsr.io/@fartlabs/fartkit/score)
+[![GitHub Actions](https://github.com/FartLabs/fartkit/actions/workflows/publish.yaml/badge.svg)](https://github.com/FartLabs/fartkit/actions/workflows/publish.yaml)
+
+Everything you need to build a modern Web application, powered by **FartKit**.
 
 ### Creating a project
 
