@@ -1,0 +1,29 @@
+{
+  "lock": false,
+  "imports": {
+    "#/": "./src/",
+    "@fartlabs/htx": "jsr:@fartlabs/htx@^0.0.10",
+    "@fartlabs/jsonx": "jsr:@fartlabs/jsonx@^0.0.11",
+    "@fartlabs/rtx": "jsr:@fartlabs/rtx@^0.0.15",
+    "@std/http": "jsr:@std/http@^1.0.17"
+  },
+  "tasks": {
+    "start": "deno serve -A --env --unstable-kv main.ts",
+    "dev": "deno serve --watch -A --env --unstable-kv main.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint",
+    "check": "deno check",
+    "precommit": {
+      "description": "Run all pre-commit tasks",
+      "dependencies": [
+        "fmt",
+        "lint",
+        "check"
+      ]
+    }
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@fartlabs/jsonx"
+  }
+}
