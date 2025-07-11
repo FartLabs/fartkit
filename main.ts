@@ -30,7 +30,7 @@ EXAMPLES:
   deno -A jsr:@fartlabs/fartkit --no-vscode -- my-app
 
 TEMPLATES:
-  minimal    Basic project structure (default)`
+  minimal    Basic project structure (default)`,
   );
 }
 
@@ -66,7 +66,7 @@ if (import.meta.main) {
     const destination = join(
       Deno.cwd(),
       parentDirectory,
-      source.replace(new RegExp(`^${parsedArgs.template}/`), "")
+      source.replace(new RegExp(`^${parsedArgs.template}/`), ""),
     );
 
     // Ensure the file's directory exists.

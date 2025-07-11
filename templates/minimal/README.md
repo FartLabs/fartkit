@@ -2,13 +2,16 @@
 
 Everything you need to build a modern web application, powered by **FartKit**.
 
-## Creating a project
+### Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+To create a new FartKit project, use the command:
 
-```bash
+```sh
 deno -A jsr:@fartlabs/fartkit
 ```
+
+This will launch an interactive prompt to help you scaffold a new project from
+scratch.
 
 ## Developing
 
@@ -22,35 +25,17 @@ deno task dev
 deno task start
 ```
 
-## Building
-
-To create a production version of your app:
+Run the following command to run the opinionated pre-commit tasks:
 
 ```bash
-# run all pre-commit checks
 deno task precommit
 ```
 
-You can preview the production build by running the server in production mode.
-
 ## Deploying
 
-To deploy your FartKit application, simply run:
+To deploy your FartKit application, see
+[Deno Deploy](https://docs.deno.com/deploy/manual/).
 
-```sh
-deno -A jsr:@fartlabs/fartkit
-```
+---
 
-This command will start an interactive setup and ask you a series of questions
-to guide you through the deployment process.
-
-### Creating a new project
-
-To create a new FartKit project, use the `create` subcommand:
-
-```sh
-deno -A jsr:@fartlabs/fartkit create
-```
-
-This will launch an interactive prompt to help you scaffold a new project from
-scratch.
+Created with 🧪 [**@FartLabs**](https://github.com/FartLabs)

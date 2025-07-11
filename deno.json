@@ -1,7 +1,7 @@
 {
   "lock": false,
   "name": "@fartlabs/fartkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": "./main.ts",
   "imports": {
     "@nfnitloop/deno-embedder": "jsr:@nfnitloop/deno-embedder@^1.6.1",
@@ -13,5 +13,5 @@
     "publish:dry": "deno publish --dry-run --allow-dirty --check"
   },
   "fmt": { "exclude": ["embed/**/*"] },
-  "lint": { "ignore": ["embed/**/*"] }
+  "lint": { "exclude": ["embed/**/*"] }
 }
