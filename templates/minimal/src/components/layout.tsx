@@ -17,7 +17,7 @@ export function Layout(props: LayoutProps) {
         {/* Additional head HTML */}
         {props.head ?? ""}
       </HEAD>
-      <BODY>{props.children}</BODY>
+      <BODY>{props.children?.join("") ?? ""}</BODY>
     </HTML>
   );
 
