@@ -43,15 +43,15 @@ Example project structure (generated):
 
 ```text
 my-app/
-  deno.json
-  main.ts
-  src/
-    app.tsx
-    routes/
-      index.tsx
-    components/
-      layout.tsx
-      redirect.tsx
+├─ deno.json
+├─ main.ts
+└─ src/
+   ├─ app.tsx
+   ├─ routes/
+   │  └─ index.tsx
+   └─ components/
+      ├─ layout.tsx
+      └─ redirect.tsx
 ```
 
 Example route (`src/routes/index.tsx`):
